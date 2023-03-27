@@ -179,7 +179,8 @@ select {
 .main {
     margin-inline: auto;
 }
- .thm {
+
+.thm {
     display: flex;
     width: 30rem;
     background-color: hsl( var(--clr-black) );
@@ -188,7 +189,7 @@ select {
     align-items: center;
  }
 
- .thm p {
+.thm p {
     font-size: var(--fs-600);
     color: hsl( var(--clr-cyan) );
     margin-left: 2rem;
