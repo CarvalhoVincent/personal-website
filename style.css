@@ -179,6 +179,20 @@ select {
 .main {
     margin-inline: auto;
 }
+ .thm {
+    display: flex;
+    width: 30rem;
+    background-color: hsl( var(--clr-black) );
+    margin-bottom: 3rem;
+    border-radius: 2rem;
+    align-items: center;
+ }
+
+ .thm p {
+    font-size: var(--fs-600);
+    color: hsl( var(--clr-cyan) );
+    margin-left: 2rem;
+ }
 
 .portfolio {
     padding-inline: 1.5rem;
