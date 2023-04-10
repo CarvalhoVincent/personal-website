@@ -204,12 +204,12 @@ select {
 
  .rootme {
     display: flex;
-    padding-inline: .5rem;
-    height: 4.2rem;
+    padding-inline: .3rem;
+    height: 4rem;
     width: 30rem;
     background-color: hsl( var(--clr-black) );
     margin-bottom: 3rem;
-    border-radius: 2rem;
+    border-radius: .5rem 2rem 2rem .5rem;
     align-items: center;
     gap: 2rem;
  }
