@@ -196,7 +196,6 @@ select {
     display: flex;
     width: 30rem;
     background-color: hsl( var(--clr-black) );
-    margin-bottom: 3rem;
     border-radius: 2rem;
     align-items: center;
     gap: 2rem;
@@ -207,7 +206,20 @@ select {
     color: hsl( var(--clr-cyan) );
  }
 
- .rootme {
+.thm-desc {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    padding-left: .5rem;
+}
+
+.thm-desc img {
+    margin-right: -.8rem;
+}
+
+
+.rootme {
     display: flex;
     padding-inline: .3rem;
     height: 4rem;
