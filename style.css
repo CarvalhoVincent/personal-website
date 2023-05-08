@@ -185,6 +185,26 @@ select {
     margin-inline: auto;
 }
 
+.graphs {
+    display: flex;
+    gap: 2rem;
+}
+.graph {
+    width: 50rem;
+    height: auto;
+}
+
+.language {
+    width: 50rem;
+    height: auto;
+}
+
+.streak {
+    margin-top: 2rem;
+    
+    text-align: center;
+}
+
 .score {
     display: flex;
     flex-direction: column;
