@@ -199,6 +199,15 @@ select {
     height: auto;
 }
 
+@media (max-width:35rem) {
+    .graph {
+        width: 20rem;
+    }
+    .language {
+        width: 20rem;
+    }
+}
+
 .streak {
     margin-top: 2rem;
     
