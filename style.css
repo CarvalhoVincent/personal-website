@@ -185,27 +185,33 @@ select {
     margin-inline: auto;
 }
 
+@media (max-width:35rem) {
+    .graphs{
+        flex-direction: column;
+    }
+    .graph {
+        width: 20rem;
+        height: auto;
+    }
+    .language {
+        width: 20rem;
+        height: auto;
+    }
+}
+
 .graphs {
     display: flex;
     gap: 2rem;
 }
+
 .graph {
-    width: 50rem;
+    width: 40%;
     height: auto;
 }
 
 .language {
-    width: 50rem;
+    width: 40%;
     height: auto;
-}
-
-@media (max-width:35rem) {
-    .graph {
-        width: 20rem;
-    }
-    .language {
-        width: 20rem;
-    }
 }
 
 .streak {
