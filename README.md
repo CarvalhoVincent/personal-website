@@ -1,3 +1,3 @@
 # personal-website
 
-https://carvalhovincent.github.io/personal-website/
+https://www.vcarvalho.fr
